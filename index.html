@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="sass/main.css">
+    <title>Quiz</title>
+</head>
+
+<body >
+    <section class="section1" id="particles-js" >
+        <div class="d-flex w-100" id="card">
+            <div class="card">
+                <div class="card-header w-100">
+                    <h5> Quiz AWS-Certified-Cloud-Practitioner_Sample-Questions :</h5>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Please don't forget to put your name</h5>
+                    <label for="name" id="labelName">name :</label><br>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="card-footer"><button class="btn btn-primary" onclick="startSound()" >Go</button><button class="btn btn-primary" onclick="timer()" style="display : none" id="go"></button></div>
+                <div id="audio"></div>
+            </div>
+        </div>
+        <div id="timer" style="display: none;">15</div>
+    </section>
+    
+  <!-- Modal -->
+  <div class='modal fade' id='exampleModal' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true'>
+    <div class='modal-dialog' role='document'>
+      <div class='modal-content'>
+        <div class='modal-header'>
+          <h5 class='modal-title' id='Title'>Explication Of Your Answer</h5>
+          
+        </div>
+        <div class='modal-body'>
+          <div class="correctanswer"></div>
+          <div class="Incorrectanswer">
+            <p class="options"></p>
+          </div>
+        </div>
+        <div class='modal-footer'>
+          <a href="index.html" class="btn btn-primary text-white" style="border: solid 1px white;">Try again</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script/script.js"></script>
+    <script src="script/particles.js"></script>
+    <script src="script/app.js"></script>
+    <script src="script/senddata.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

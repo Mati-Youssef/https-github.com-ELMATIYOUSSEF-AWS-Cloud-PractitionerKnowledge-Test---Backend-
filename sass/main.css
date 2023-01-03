@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+body {
+  background-image: linear-gradient(to right top, #6bd184, #1cd0a9, #00cbcb, #00c3e3, #35b9ee, #5ebbee, #79beed, #8fc1ec, #a2d2ed, #bce1ef, #daeff3, #f9fcfc);
+}
+
+.section1 {
+  height: 100vh !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section1 #card {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+.section1 .card {
+  background-color: rgba(8, 66, 152, 0.1098039216);
+  position: relative;
+  width: 60%;
+  height: auto;
+}
+
+#labelName {
+  font-family: "Roboto Slab", serif;
+  font-size: 25px;
+  color: brown;
+}
+#labelName:hover {
+  background-color: cornflowerblue;
+}
+
+.new-div {
+  color: red;
+  font-size: large;
+  font-family: "Roboto Slab", serif;
+}
+
+.labelBtn {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-image: linear-gradient(to right top, #c3c3c3, #ccc2cd, #dfbfcd, #f2bcc1, #febdac, #f8c49f, #ebcd98, #d7d799, #c0e0af, #b0e6c8, #ace9e0, #b5eaf1);
+  border-left: solid 3px rgb(2, 80, 89) !important;
+  margin-bottom: 1rem;
+  border-radius: 0 20px 20px 0;
+}
+
+#timer {
+  width: 35px;
+  height: 35px;
+  font-size: large;
+  border-radius: 50%;
+  border: solid 3px #0d0151;
+  position: absolute;
+  text-align: center;
+  top: 10%;
+  right: 10%;
+  color: #0d0151;
+}
+
+#time_Pogress {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background: green;
+  box-shadow: 2px 1px 13px 1px #ee5454;
+  height: 4px;
+  transition: 1s;
+}
+
+.btnShow {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.colorGreen {
+  background-image: linear-gradient(to right top, #6bd184, #5cca73, #4dc461, #3dbd4d, #2bb638, #39b838, #44b938, #4ebb38, #6cc64f, #86d165, #9ddd7c, #b4e892);
+}
+
+.colorRed {
+  background-image: linear-gradient(to right top, #c40a0a, #c34217, #c15f2b, #bf7643, #bd8b5f, #b88a63, #b28968, #ac886c, #a17359, #965d48, #8b473b, #7e3030);
+}
+
+/* Style the table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  /* Style the table cells */
+  /* Style the table headings */
+}
+table td, table th {
+  border: 1px solid #0e0f0f;
+  text-align: center;
+}
+table th {
+  width: 50%;
+  background-color: #b4d3e5;
+}/*# sourceMappingURL=main.css.map */
